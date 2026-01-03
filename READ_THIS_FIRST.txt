@@ -1,0 +1,35 @@
+READ_THIS_FIRST.txt
+--------------------
+
+This folder contains an educational pipeline design tool for young engineers.
+
+Start in this order:
+
+1) Make sure Python 3 is installed on your computer.
+   - In a terminal/command prompt, run:  python --version
+   - If it shows a version (e.g. Python 3.10), you are OK.
+
+2) Install required Python libraries (once):
+   - Open terminal in this folder and run:
+       pip install numpy scipy pandas
+
+3) Run the example calculation:
+   - In the same terminal, run:
+       python calculations.py
+   - You should see a full pipeline analysis printed (flow, pressure drop, stress, safety check).
+
+4) Learn how to use the tool:
+   - Open calculations.py and read the comments at the top.
+   - Treat it as a template: you will later change only the input numbers (flow, diameter, length, etc.), not the formulas.
+
+5) IMPORTANT DISCLAIMER:
+   - This tool is for education and preliminary understanding only.
+   - It is NOT a substitute for:
+       * Detailed design by qualified engineers
+       * Full compliance with ASME/API/SHELL DEP/company standards
+       * Peer review and senior engineer approval
+   - Always verify calculations separately and follow applicable codes and company procedures.
+
+Suggested next steps:
+- Add more example scripts (e.g. my_case_1.py) that call PipelineAnalysis with your own project data.
+- Put this folder under Git version control and push it to GitHub for tracking and sharing.
