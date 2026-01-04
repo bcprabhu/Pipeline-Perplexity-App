@@ -1,0 +1,95 @@
+PIPELINE NOTES – NON-HYDRAULIC TOPICS (EDUCATIONAL ONLY)
+
+1) ROUTE MARKING AND SIGN BOARDS (AWARENESS)
+
+- Purpose:
+  - Warn public that a buried/high-pressure pipeline is present along the route.
+  - Provide operator name, product type (crude, gas, product), and emergency contact number.
+  - Help authorities and landowners identify and report any damage or leak suspicion.
+
+- Typical practice (varies by country and company):
+  - Permanent markers at road / rail crossings, nalla / river crossings, major bends and at regular intervals along ROW.
+  - Markers should be visible, durable, and placed so they do not become an obstruction themselves.
+  - Wording, colours and spacing are normally defined by national regulations (e.g. PNGRB in India, API / local law elsewhere) and company standards.
+  - Young engineers must always refer to project-specific standards and drawings for exact requirements.
+
+NOTE: This tool does NOT design sign boards. It only reminds learners that route marking / line markers are a mandatory safety and regulatory requirement.
+
+2) CORROSION AND COATINGS (VERY HIGH LEVEL)
+
+- Main external corrosion drivers for buried pipelines:
+  - Soil moisture and oxygen.
+  - Soil resistivity and chemistry (salts, acidity).
+  - Stray currents from nearby electrical installations or other pipelines.
+  - Coating damage during transport, stringing and backfilling.
+
+- Role of external coating:
+  - First line of defence: minimise exposed bare steel surface.
+  - Typical systems: 3LPE / 3LPP, FBE, tape wraps etc. (actual choice is project-specific).
+  - Field joints and repairs must be coated properly as per procedure.
+
+NOTE: Coating system selection and specification are separate specialist tasks. This app does not calculate coating performance.
+
+3) BASICS OF CATHODIC PROTECTION (CP) – CONCEPT ONLY
+
+- Idea in one line:
+  - Make the pipeline behave as a CATHODE so that sacrificial ANODES (or impressed current anodes) corrode instead of the pipe.
+
+- Two common types:
+  1. Sacrificial anode systems:
+     - Use magnesium, zinc or aluminium alloy anodes connected to the pipe.
+     - Pipe potential is shifted in the protective direction by galvanic action.
+     - Simple and self-powered, usually for shorter or lower current demand systems.
+  2. Impressed current systems:
+     - Use external DC power supply (rectifier) and inert anodes in the soil.
+     - Current is “impressed” onto the pipeline to maintain protective potential.
+     - Used for long pipelines and higher current requirements.
+
+- Important reminders for young engineers:
+  - CP DESIGN is a specialist task performed by corrosion / CP engineers.
+  - Design must comply with applicable codes, company standards and detailed CP drawings.
+  - Routine monitoring (test posts, potential surveys) is critical to ensure long-term protection.
+
+NOTE: This app does NOT attempt CP design. It only reminds the learner that hydraulic sizing is only one part of a safe pipeline design.
+
+4) PIG LAUNCHER AND RECEIVER – PURPOSE ONLY
+
+- What is “pigging”?
+  - A “pig” is a device that travels inside the pipeline, pushed by fluid.
+  - Typical purposes: cleaning, de-waxing, dewatering, batching, and in-line inspection (ILI / smart pigs).
+
+- Pig launcher:
+  - Installed near the start of the pipeline.
+  - Contains a barrel where pig is loaded, connected to the main line through valves and a kicker/bypass line.
+  - Key safety points:
+    - Must be correctly isolated, depressurised, vented and drained before opening the closure door.
+    - Interlocks / procedures are critical to avoid opening on pressure.
+
+- Pig receiver:
+  - Installed near the end of the pipeline.
+  - Receives the pig coming from the line; similar barrel, with facilities for vent, drain and pig signalers.
+  - Layout and valve arrangement follow detailed P&IDs and company standards.
+
+NOTE: This app does NOT provide pig trap design or P&ID. It only explains the basic purpose so hydraulic calculations are seen in a wider system context.
+
+5) ELECTRICAL AND INSTRUMENTATION – QUICK ORIENTATION
+
+- Along a typical transmission pipeline, young engineers will normally see:
+  - CP rectifiers and test posts along the route (for cathodic protection monitoring).
+  - RTU / PLC panels at pump / compressor / valve stations.
+  - Pressure, temperature and flow transmitters for monitoring and control.
+  - Motor-operated valves (MOVs), emergency shutdown valves (ESDVs) and associated limit switches.
+  - Level instruments at facilities like slug catchers, storage tanks, separators (where applicable).
+
+- Key message:
+  - Detailed E&I design is its own discipline, with separate codes and company specifications.
+  - Pipeline hydraulics must be coordinated with E&I to ensure safe operation, shutdown philosophy and leak detection.
+
+GENERAL DISCLAIMER FOR THIS NOTES FILE
+
+- These notes are ONLY for awareness and education.
+- They are not a substitute for:
+  - Detailed design by qualified specialists (mechanical, corrosion, CP, E&I, process and safety).
+  - Full compliance with national regulations, codes and company standards.
+  - Formal review, HAZOP and approvals.
+- Always follow project documents, specifications and guidance from senior engineers when working on real projects.
